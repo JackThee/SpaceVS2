@@ -1,10 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "WhiteSpaceshipBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_spaceship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/models/item/white_spaceship_block.json",
+          "src/main/resources/assets/spacevs/blockstates/white_spaceship_block.json",
+          "src/main/resources/data/spacevs/loot_tables/blocks/white_spaceship_block.json",
+          "src/main/java/net/mcreator/spacevs/block/WhiteSpaceshipBlockBlock.java",
+          "src/main/resources/assets/spacevs/models/block/white_spaceship_block.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.spacevs.white_spaceship_block": "White Spaceship Block"
+    }
   },
   "foldersRoot": {
     "name": "~",

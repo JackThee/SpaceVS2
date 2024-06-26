@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.spacevs.init.SpacevsModTabs;
+import net.mcreator.spacevs.init.SpacevsModItems;
+import net.mcreator.spacevs.init.SpacevsModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -34,6 +38,12 @@ public class SpacevsMod {
 	public SpacevsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SpacevsModBlocks.REGISTRY.register(bus);
+
+		SpacevsModItems.REGISTRY.register(bus);
+
+		SpacevsModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

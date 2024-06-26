@@ -17,6 +17,7 @@ import net.mcreator.spacevs.SpacevsMod;
 public class SpacevsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SpacevsMod.MODID);
 	public static final RegistryObject<Item> WHITE_SPACESHIP_BLOCK = block(SpacevsModBlocks.WHITE_SPACESHIP_BLOCK);
+	public static final RegistryObject<Item> BLACK_SPACESHIP_BLOCK = block(SpacevsModBlocks.BLACK_SPACESHIP_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

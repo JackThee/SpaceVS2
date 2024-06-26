@@ -22,6 +22,7 @@ public class SpacevsModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(SpacevsModBlocks.BLACK_SPACESHIP_BLOCK.get().asItem());
 			tabData.accept(SpacevsModBlocks.WHITE_SPACESHIP_BLOCK.get().asItem());
 		}
 	}

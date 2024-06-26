@@ -3,6 +3,7 @@
     {
       "name": "WhiteSpaceshipBlock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_spaceship_block",
@@ -15,6 +16,23 @@
           "src/main/resources/assets/spacevs/models/block/white_spaceship_block.json"
         ]
       }
+    },
+    {
+      "name": "BlackSpaceshipBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_spaceship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/blockstates/black_spaceship_block.json",
+          "src/main/java/net/mcreator/spacevs/block/BlackSpaceshipBlockBlock.java",
+          "src/main/resources/assets/spacevs/models/item/black_spaceship_block.json",
+          "src/main/resources/data/spacevs/loot_tables/blocks/black_spaceship_block.json",
+          "src/main/resources/assets/spacevs/models/block/black_spaceship_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -22,6 +40,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "block.spacevs.black_spaceship_block": "Black Spaceship Block",
       "block.spacevs.white_spaceship_block": "White Spaceship Block"
     }
   },

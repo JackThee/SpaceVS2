@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "greyspaceshipblokc",
-    "textureTop": "greyspaceshipblokc",
-    "textureLeft": "greyspaceshipblokc",
-    "textureFront": "greyspaceshipblokc",
-    "textureRight": "greyspaceshipblokc",
-    "textureBack": "greyspaceshipblokc",
+    "texture": "moltenscrap",
+    "textureTop": "moltenscrap",
+    "textureLeft": "moltenscrap",
+    "textureFront": "moltenscrap",
+    "textureRight": "moltenscrap",
+    "textureBack": "moltenscrap",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,11 +33,11 @@
         "subtract": false
       }
     ],
-    "name": "Grey Spaceship Block",
+    "name": "Molten Scrap",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 3,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,

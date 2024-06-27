@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "spacevs:molten_scrap",
+    "spacevs:red_spaceship_block",
+    "spacevs:cyan_spaceship_block",
+    "spacevs:grey_spaceship_block",
+    "spacevs:black_spaceship_block",
+    "spacevs:white_spaceship_block"
+  ]
+}

@@ -27,6 +27,7 @@ public class SpacevsModTabs {
 			tabData.accept(SpacevsModBlocks.GREY_SPACESHIP_BLOCK.get().asItem());
 			tabData.accept(SpacevsModBlocks.CYAN_SPACESHIP_BLOCK.get().asItem());
 			tabData.accept(SpacevsModBlocks.RED_SPACESHIP_BLOCK.get().asItem());
+			tabData.accept(SpacevsModBlocks.MOLTEN_SCRAP.get().asItem());
 		}
 	}
 }

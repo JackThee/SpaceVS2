@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spacevs:block/moltenscrap",
+    "up": "spacevs:block/moltenscrap",
+    "north": "spacevs:block/moltenscrap",
+    "east": "spacevs:block/moltenscrap",
+    "south": "spacevs:block/moltenscrap",
+    "west": "spacevs:block/moltenscrap",
+    "particle": "spacevs:block/moltenscrap"
+  },
+  "render_type": "solid"
+}

@@ -126,33 +126,70 @@
       }
     },
     {
-      "name": "MoltenScrapOnTickUpdate",
-      "type": "procedure",
+      "name": "RawComposite",
+      "type": "item",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "molten_scrap_on_tick_update",
+      "registry_name": "raw_composite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/spacevs/procedures/MoltenScrapOnTickUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/spacevs/models/item/raw_composite.json",
+          "src/main/java/net/mcreator/spacevs/item/RawCompositeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CompositePlating",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "composite_plating",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/models/item/composite_plating.json",
+          "src/main/java/net/mcreator/spacevs/item/CompositePlatingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteSpaceshipBlockREC",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_spaceship_block_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/recipes/white_spaceship_block_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackDyePaste",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_dye_paste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/models/item/black_dye_paste.json",
+          "src/main/java/net/mcreator/spacevs/item/BlackDyePasteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackSpaceshipBlockREC",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_spaceship_block_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/recipes/black_spaceship_block_rec.json"
         ]
       }
     }
@@ -173,10 +210,13 @@
     "en_us": {
       "block.spacevs.black_spaceship_block": "Black Spaceship Block",
       "block.spacevs.cyan_spaceship_block": "Cyan Spaceship Block",
+      "item.spacevs.raw_composite": "Raw Composite",
+      "item.spacevs.composite_plating": "Composite Plating",
       "block.spacevs.grey_spaceship_block": "Grey Spaceship Block",
       "block.spacevs.red_spaceship_block": "Red Spaceship Block",
       "block.spacevs.white_spaceship_block": "White Spaceship Block",
-      "block.spacevs.molten_scrap": "Molten Scrap"
+      "block.spacevs.molten_scrap": "Molten Scrap",
+      "item.spacevs.black_dye_paste": "Black Dye Paste"
     }
   },
   "foldersRoot": {

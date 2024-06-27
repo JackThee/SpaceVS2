@@ -12,6 +12,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.spacevs.item.RawCompositeItem;
+import net.mcreator.spacevs.item.CompositePlatingItem;
+import net.mcreator.spacevs.item.BlackDyePasteItem;
 import net.mcreator.spacevs.SpacevsMod;
 
 public class SpacevsModItems {
@@ -22,6 +25,9 @@ public class SpacevsModItems {
 	public static final RegistryObject<Item> CYAN_SPACESHIP_BLOCK = block(SpacevsModBlocks.CYAN_SPACESHIP_BLOCK);
 	public static final RegistryObject<Item> RED_SPACESHIP_BLOCK = block(SpacevsModBlocks.RED_SPACESHIP_BLOCK);
 	public static final RegistryObject<Item> MOLTEN_SCRAP = block(SpacevsModBlocks.MOLTEN_SCRAP);
+	public static final RegistryObject<Item> RAW_COMPOSITE = REGISTRY.register("raw_composite", () -> new RawCompositeItem());
+	public static final RegistryObject<Item> COMPOSITE_PLATING = REGISTRY.register("composite_plating", () -> new CompositePlatingItem());
+	public static final RegistryObject<Item> BLACK_DYE_PASTE = REGISTRY.register("black_dye_paste", () -> new BlackDyePasteItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

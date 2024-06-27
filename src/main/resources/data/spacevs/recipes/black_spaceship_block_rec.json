@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "spacevs:white_spaceship_block"
+    },
+    "b": {
+      "item": "spacevs:black_dye_paste"
+    }
+  },
+  "result": {
+    "item": "spacevs:black_spaceship_block",
+    "count": 1
+  }
+}

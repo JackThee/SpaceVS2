@@ -1,8 +1,11 @@
 {
   "block.spacevs.black_spaceship_block": "Black Spaceship Block",
   "block.spacevs.cyan_spaceship_block": "Cyan Spaceship Block",
+  "item.spacevs.raw_composite": "Raw Composite",
+  "item.spacevs.composite_plating": "Composite Plating",
   "block.spacevs.grey_spaceship_block": "Grey Spaceship Block",
   "block.spacevs.red_spaceship_block": "Red Spaceship Block",
   "block.spacevs.white_spaceship_block": "White Spaceship Block",
-  "block.spacevs.molten_scrap": "Molten Scrap"
+  "block.spacevs.molten_scrap": "Molten Scrap",
+  "item.spacevs.black_dye_paste": "Black Dye Paste"
 }

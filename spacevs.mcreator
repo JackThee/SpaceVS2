@@ -192,6 +192,32 @@
           "src/main/resources/data/spacevs/recipes/black_spaceship_block_rec.json"
         ]
       }
+    },
+    {
+      "name": "BlackDyePasteREC",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_dye_paste_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/recipes/black_dye_paste_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "CompositePlatingREC",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "composite_plating_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/recipes/composite_plating_rec.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -228,7 +254,7 @@
     "modName": "SpaceVS2",
     "version": "1.0.0",
     "author": "Jack_Thee",
-    "websiteURL": "AAAAAA",
+    "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [

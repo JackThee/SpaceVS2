@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "item": "spacevs:raw_composite"
+    }
+  },
+  "result": {
+    "item": "spacevs:black_dye_paste",
+    "count": 8
+  }
+}

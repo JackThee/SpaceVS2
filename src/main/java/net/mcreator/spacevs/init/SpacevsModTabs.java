@@ -24,6 +24,7 @@ public class SpacevsModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(SpacevsModBlocks.BLACK_SPACESHIP_BLOCK.get().asItem());
 			tabData.accept(SpacevsModBlocks.WHITE_SPACESHIP_BLOCK.get().asItem());
+			tabData.accept(SpacevsModBlocks.GREY_SPACESHIP_BLOCK.get().asItem());
 		}
 	}
 }

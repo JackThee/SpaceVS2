@@ -50,6 +50,40 @@
           "src/main/java/net/mcreator/spacevs/block/GreySpaceshipBlockBlock.java"
         ]
       }
+    },
+    {
+      "name": "CyanSpaceshipBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_spaceship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/blockstates/cyan_spaceship_block.json",
+          "src/main/resources/assets/spacevs/models/block/cyan_spaceship_block.json",
+          "src/main/resources/data/spacevs/loot_tables/blocks/cyan_spaceship_block.json",
+          "src/main/resources/assets/spacevs/models/item/cyan_spaceship_block.json",
+          "src/main/java/net/mcreator/spacevs/block/CyanSpaceshipBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RedSpaceshipBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_spaceship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/loot_tables/blocks/red_spaceship_block.json",
+          "src/main/resources/assets/spacevs/blockstates/red_spaceship_block.json",
+          "src/main/resources/assets/spacevs/models/block/red_spaceship_block.json",
+          "src/main/resources/assets/spacevs/models/item/red_spaceship_block.json",
+          "src/main/java/net/mcreator/spacevs/block/RedSpaceshipBlockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -58,7 +92,9 @@
   "language_map": {
     "en_us": {
       "block.spacevs.black_spaceship_block": "Black Spaceship Block",
+      "block.spacevs.cyan_spaceship_block": "Cyan Spaceship Block",
       "block.spacevs.grey_spaceship_block": "Grey Spaceship Block",
+      "block.spacevs.red_spaceship_block": "Red Spaceship Block",
       "block.spacevs.white_spaceship_block": "White Spaceship Block"
     }
   },

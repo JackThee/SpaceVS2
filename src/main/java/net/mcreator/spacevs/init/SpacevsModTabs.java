@@ -32,6 +32,8 @@ public class SpacevsModTabs {
 			tabData.accept(SpacevsModBlocks.RACK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SpacevsModItems.RAW_COMPOSITE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(SpacevsModItems.MINING_LASER.get());
 		}
 	}
 }

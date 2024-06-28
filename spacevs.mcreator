@@ -278,6 +278,59 @@
           "src/main/resources/data/spacevs/recipes/space_glass_rec.json"
         ]
       }
+    },
+    {
+      "name": "MiningLaserRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_laser_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spacevs/procedures/MiningLaserRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiningLaser",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_laser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spacevs/item/MiningLaserItem.java",
+          "src/main/resources/assets/spacevs/models/item/mining_laser.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -290,21 +343,29 @@
       "~CUSTOM:GreySpaceshipBlock",
       "~CUSTOM:BlackSpaceshipBlock",
       "~CUSTOM:WhiteSpaceshipBlock"
+    ],
+    "BLOCKS:forge:mining/laserable": [
+      "CUSTOM:WhiteSpaceshipBlock",
+      "CUSTOM:BlackSpaceshipBlock",
+      "CUSTOM:GreySpaceshipBlock",
+      "CUSTOM:CyanSpaceshipBlock",
+      "CUSTOM:RedSpaceshipBlock"
     ]
   },
   "language_map": {
     "en_us": {
       "block.spacevs.black_spaceship_block": "Black Spaceship Block",
+      "item.spacevs.mining_laser": "Mining Laser",
+      "item.spacevs.composite_plating": "Composite Plating",
+      "item.spacevs.black_dye_paste": "Black Dye Paste",
       "block.spacevs.space_glass": "Space Glass",
       "block.spacevs.rack": "Rack",
       "block.spacevs.cyan_spaceship_block": "Cyan Spaceship Block",
       "item.spacevs.raw_composite": "Raw Composite",
-      "item.spacevs.composite_plating": "Composite Plating",
       "block.spacevs.grey_spaceship_block": "Grey Spaceship Block",
       "block.spacevs.red_spaceship_block": "Red Spaceship Block",
-      "block.spacevs.white_spaceship_block": "White Spaceship Block",
       "block.spacevs.molten_scrap": "Molten Scrap",
-      "item.spacevs.black_dye_paste": "Black Dye Paste"
+      "block.spacevs.white_spaceship_block": "White Spaceship Block"
     }
   },
   "foldersRoot": {

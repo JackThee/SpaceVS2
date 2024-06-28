@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.spacevs.item.RawCompositeItem;
+import net.mcreator.spacevs.item.MiningLaserItem;
 import net.mcreator.spacevs.item.CompositePlatingItem;
 import net.mcreator.spacevs.item.BlackDyePasteItem;
 import net.mcreator.spacevs.SpacevsMod;
@@ -30,6 +31,7 @@ public class SpacevsModItems {
 	public static final RegistryObject<Item> BLACK_DYE_PASTE = REGISTRY.register("black_dye_paste", () -> new BlackDyePasteItem());
 	public static final RegistryObject<Item> SPACE_GLASS = block(SpacevsModBlocks.SPACE_GLASS);
 	public static final RegistryObject<Item> RACK = block(SpacevsModBlocks.RACK);
+	public static final RegistryObject<Item> MINING_LASER = REGISTRY.register("mining_laser", () -> new MiningLaserItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

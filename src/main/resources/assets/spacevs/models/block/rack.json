@@ -1,0 +1,9 @@
+{
+  "parent": "spacevs:custom/rack",
+  "textures": {
+    "all": "spacevs:block/racktex",
+    "particle": "spacevs:block/racktex",
+    "0": "spacevs:block/racktex"
+  },
+  "render_type": "cutout"
+}

@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.spacevs.block.WhiteSpaceshipBlockBlock;
 import net.mcreator.spacevs.block.SpaceGlassBlock;
 import net.mcreator.spacevs.block.RedSpaceshipBlockBlock;
+import net.mcreator.spacevs.block.RackBlock;
 import net.mcreator.spacevs.block.MoltenScrapBlock;
 import net.mcreator.spacevs.block.GreySpaceshipBlockBlock;
 import net.mcreator.spacevs.block.CyanSpaceshipBlockBlock;
@@ -28,6 +29,7 @@ public class SpacevsModBlocks {
 	public static final RegistryObject<Block> RED_SPACESHIP_BLOCK = REGISTRY.register("red_spaceship_block", () -> new RedSpaceshipBlockBlock());
 	public static final RegistryObject<Block> MOLTEN_SCRAP = REGISTRY.register("molten_scrap", () -> new MoltenScrapBlock());
 	public static final RegistryObject<Block> SPACE_GLASS = REGISTRY.register("space_glass", () -> new SpaceGlassBlock());
+	public static final RegistryObject<Block> RACK = REGISTRY.register("rack", () -> new RackBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

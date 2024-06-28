@@ -1,8 +1,7 @@
 {
   "variants": {
     "": {
-      "click-false":{"model": "spacevs:block/space_glass"},
-      "click-true":{"model": "spacevs:block/space_glass1"}
+      "model": "spacevs:block/space_glass"
     }
   }
 }

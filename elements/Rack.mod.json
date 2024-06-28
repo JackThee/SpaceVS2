@@ -2,15 +2,15 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "spaceglass",
-    "textureTop": "spaceglass",
-    "textureLeft": "spaceglass",
-    "textureFront": "spaceglass",
-    "textureRight": "spaceglass",
-    "textureBack": "spaceglass",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 0,
+    "texture": "racktex",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "rack:default",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -19,7 +19,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": true,
+    "connectedSides": false,
     "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
@@ -33,11 +33,11 @@
         "subtract": false
       }
     ],
-    "name": "Space Glass",
+    "name": "Rack",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.55,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "GLASS"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

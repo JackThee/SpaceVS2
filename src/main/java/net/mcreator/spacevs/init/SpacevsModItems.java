@@ -28,6 +28,7 @@ public class SpacevsModItems {
 	public static final RegistryObject<Item> RAW_COMPOSITE = REGISTRY.register("raw_composite", () -> new RawCompositeItem());
 	public static final RegistryObject<Item> COMPOSITE_PLATING = REGISTRY.register("composite_plating", () -> new CompositePlatingItem());
 	public static final RegistryObject<Item> BLACK_DYE_PASTE = REGISTRY.register("black_dye_paste", () -> new BlackDyePasteItem());
+	public static final RegistryObject<Item> SPACE_GLASS = block(SpacevsModBlocks.SPACE_GLASS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

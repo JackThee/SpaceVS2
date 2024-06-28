@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.spacevs.block.WhiteSpaceshipBlockBlock;
+import net.mcreator.spacevs.block.SpaceGlassBlock;
 import net.mcreator.spacevs.block.RedSpaceshipBlockBlock;
 import net.mcreator.spacevs.block.MoltenScrapBlock;
 import net.mcreator.spacevs.block.GreySpaceshipBlockBlock;
@@ -26,6 +27,7 @@ public class SpacevsModBlocks {
 	public static final RegistryObject<Block> CYAN_SPACESHIP_BLOCK = REGISTRY.register("cyan_spaceship_block", () -> new CyanSpaceshipBlockBlock());
 	public static final RegistryObject<Block> RED_SPACESHIP_BLOCK = REGISTRY.register("red_spaceship_block", () -> new RedSpaceshipBlockBlock());
 	public static final RegistryObject<Block> MOLTEN_SCRAP = REGISTRY.register("molten_scrap", () -> new MoltenScrapBlock());
+	public static final RegistryObject<Block> SPACE_GLASS = REGISTRY.register("space_glass", () -> new SpaceGlassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

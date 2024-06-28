@@ -218,6 +218,36 @@
           "src/main/resources/data/spacevs/recipes/composite_plating_rec.json"
         ]
       }
+    },
+    {
+      "name": "RawCompositeREC",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_composite_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spacevs/recipes/raw_composite_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceGlass",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spacevs/blockstates/space_glass.json",
+          "src/main/java/net/mcreator/spacevs/block/SpaceGlassBlock.java",
+          "src/main/resources/data/spacevs/loot_tables/blocks/space_glass.json",
+          "src/main/resources/assets/spacevs/models/item/space_glass.json",
+          "src/main/resources/assets/spacevs/models/block/space_glass.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -235,6 +265,7 @@
   "language_map": {
     "en_us": {
       "block.spacevs.black_spaceship_block": "Black Spaceship Block",
+      "block.spacevs.space_glass": "Space Glass",
       "block.spacevs.cyan_spaceship_block": "Cyan Spaceship Block",
       "item.spacevs.raw_composite": "Raw Composite",
       "item.spacevs.composite_plating": "Composite Plating",

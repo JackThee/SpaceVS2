@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spacevs:block/spaceglass",
+    "up": "spacevs:block/spaceglass",
+    "north": "spacevs:block/spaceglass",
+    "east": "spacevs:block/spaceglass",
+    "south": "spacevs:block/spaceglass",
+    "west": "spacevs:block/spaceglass",
+    "particle": "spacevs:block/spaceglass"
+  },
+  "render_type": "solid"
+}

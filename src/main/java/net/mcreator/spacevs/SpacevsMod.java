@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.spacevs.init.SpacevsModTabs;
 import net.mcreator.spacevs.init.SpacevsModItems;
 import net.mcreator.spacevs.init.SpacevsModBlocks;
+import net.mcreator.spacevs.init.SpacevsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,7 +41,7 @@ public class SpacevsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SpacevsModBlocks.REGISTRY.register(bus);
-
+		SpacevsModBlockEntities.REGISTRY.register(bus);
 		SpacevsModItems.REGISTRY.register(bus);
 
 		SpacevsModTabs.REGISTRY.register(bus);

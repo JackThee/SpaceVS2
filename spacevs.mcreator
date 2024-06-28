@@ -241,6 +241,7 @@
       "registry_name": "space_glass",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/spacevs/block/entity/SpaceGlassBlockEntity.java",
           "src/main/resources/assets/spacevs/blockstates/space_glass.json",
           "src/main/java/net/mcreator/spacevs/block/SpaceGlassBlock.java",
           "src/main/resources/data/spacevs/loot_tables/blocks/space_glass.json",

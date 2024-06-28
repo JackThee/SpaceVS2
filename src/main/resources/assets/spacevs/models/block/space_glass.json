@@ -9,5 +9,5 @@
     "west": "spacevs:block/spaceglass",
     "particle": "spacevs:block/spaceglass"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

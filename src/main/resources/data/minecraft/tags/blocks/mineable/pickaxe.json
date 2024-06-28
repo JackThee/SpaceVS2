@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "spacevs:tin_crystals",
     "spacevs:molten_scrap",
     "spacevs:red_spaceship_block",
     "spacevs:cyan_spaceship_block",

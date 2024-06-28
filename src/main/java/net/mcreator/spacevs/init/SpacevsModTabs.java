@@ -30,6 +30,7 @@ public class SpacevsModTabs {
 			tabData.accept(SpacevsModBlocks.MOLTEN_SCRAP.get().asItem());
 			tabData.accept(SpacevsModBlocks.SPACE_GLASS.get().asItem());
 			tabData.accept(SpacevsModBlocks.RACK.get().asItem());
+			tabData.accept(SpacevsModBlocks.TIN_CRYSTALS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SpacevsModItems.RAW_COMPOSITE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

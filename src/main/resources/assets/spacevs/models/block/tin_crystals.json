@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spacevs:block/tin_crystals",
+    "up": "spacevs:block/tin_crystals",
+    "north": "spacevs:block/tin_crystals",
+    "east": "spacevs:block/tin_crystals",
+    "south": "spacevs:block/tin_crystals",
+    "west": "spacevs:block/tin_crystals",
+    "particle": "spacevs:block/tin_crystals"
+  },
+  "render_type": "solid"
+}

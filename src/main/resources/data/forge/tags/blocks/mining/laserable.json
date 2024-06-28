@@ -5,6 +5,9 @@
     "spacevs:black_spaceship_block",
     "spacevs:grey_spaceship_block",
     "spacevs:cyan_spaceship_block",
-    "spacevs:red_spaceship_block"
+    "spacevs:red_spaceship_block",
+    "spacevs:tin_crystals",
+    "spacevs:space_glass",
+    "spacevs:molten_scrap"
   ]
 }

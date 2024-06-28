@@ -32,6 +32,7 @@ public class SpacevsModItems {
 	public static final RegistryObject<Item> SPACE_GLASS = block(SpacevsModBlocks.SPACE_GLASS);
 	public static final RegistryObject<Item> RACK = block(SpacevsModBlocks.RACK);
 	public static final RegistryObject<Item> MINING_LASER = REGISTRY.register("mining_laser", () -> new MiningLaserItem());
+	public static final RegistryObject<Item> TIN_CRYSTALS = block(SpacevsModBlocks.TIN_CRYSTALS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "spacevs:custom/mininglaser",
   "textures": {
-    "layer0": "spacevs:item/blackdyepaste"
+    "0": "spacevs:block/mininglasertex",
+    "particle": "spacevs:item/mininglasertex"
   }
 }

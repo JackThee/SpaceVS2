@@ -2,9 +2,9 @@
   "_fv": 60,
   "_type": "item",
   "definition": {
-    "renderType": 0,
-    "texture": "blackdyepaste",
-    "customModelName": "Normal",
+    "renderType": 1,
+    "texture": "mininglasertex",
+    "customModelName": "mininglaser:default",
     "customProperties": {},
     "states": [],
     "name": "Mining Laser",
